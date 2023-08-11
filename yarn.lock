@@ -1766,6 +1766,13 @@ li@^1.3.0:
   resolved "https://registry.yarnpkg.com/li/-/li-1.3.0.tgz#22c59bcaefaa9a8ef359cf759784e4bf106aea1b"
   integrity sha512-z34TU6GlMram52Tss5mt1m//ifRIpKH5Dqm7yUVOdHI+BQCs9qGPHFaCUTIzsWX7edN30aa2WrPwR7IO10FHaw==
 
+lintervention@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lintervention/-/lintervention-3.0.2.tgz#7e7a74c08cc25a9755ad691784b1a7b449554a46"
+  integrity sha512-UOjWYTdALtTR1QQcjxX4ZFum7Es4dUcGYdZmpxuln9BqYj2ArIFI/ELJmmVgOpOhlrScGXqLvF8GJEzdaNIzBg==
+  dependencies:
+    minimist "^1.2.6"
+
 locate-path@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"

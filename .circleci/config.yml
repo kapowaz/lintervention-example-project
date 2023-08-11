@@ -16,6 +16,7 @@ jobs:
           install-yarn: true
       - checkout
       - run: yarn
+      - run: yarn -s lint
       - run:
           name: Danger
           command: yarn danger ci
