@@ -1,0 +1,16 @@
+{
+  "name": "lintervention-example-project",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "description": "An example project with Danger.js set up to run via Circle CI using lintervention",
+  "repository": "github:kapowaz/lintervention-example-project",
+  "engines": {
+    "node": "16.19.*",
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.0"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "danger": "^11.2.8"
+  }
+}

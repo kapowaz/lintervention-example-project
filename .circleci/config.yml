@@ -15,6 +15,10 @@ jobs:
           node-version: v16.19.0
           install-yarn: true
       - checkout
+      - run: yarn
+      - run:
+          name: Danger
+          command: yarn danger ci
 
 workflows:
   version: 2
