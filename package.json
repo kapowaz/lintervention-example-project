@@ -10,7 +10,8 @@
     "yarn": ">= 1.22.0"
   },
   "scripts": {
-    "lint": "eslint --ext .js,.ts src/"
+    "lint": "eslint --ext .js,.ts src/",
+    "lintervention": "lintervention"
   },
   "dependencies": {},
   "devDependencies": {
@@ -23,7 +24,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-exports": "^0.8.0",
-    "lintervention": "^3.0.3",
+    "lintervention": "^3.1.0",
     "prettier": "3.0.1",
     "typescript": "^5.1.6"
   }

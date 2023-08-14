@@ -3,7 +3,7 @@ const { markdown } = require('danger');
 const { dangerReport } = require('lintervention');
 
 async function lintervention() {
-  const report = await dangerReport({ baseBranch: 'main' });
+  const report = await dangerReport({ baseBranch: 'main', scope: 'branch' });
   markdown(report);
 }
 
