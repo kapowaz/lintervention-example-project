@@ -23,7 +23,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-exports": "^0.8.0",
-    "lintervention": "^3.0.2",
+    "lintervention": "^3.0.3",
     "prettier": "3.0.1",
     "typescript": "^5.1.6"
   }
